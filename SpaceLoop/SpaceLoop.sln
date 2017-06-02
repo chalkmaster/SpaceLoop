@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedApp", "SharedApp", "{336804D4-09B2-4916-B907-012C916E2764}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SpaceLoop.Shared", "SpaceLoop\SpaceLoop.Shared\SpaceLoop.Shared.shproj", "{8B62DE55-F82A-49E7-8819-C8FA6C156935}"
+EndProject
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "SpaceLoop.Windows", "SpaceLoop\SpaceLoop.Windows\SpaceLoop.Windows.jsproj", "{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}"
+EndProject
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "SpaceLoop.WindowsPhone", "SpaceLoop\SpaceLoop.WindowsPhone\SpaceLoop.WindowsPhone.jsproj", "{B315E961-DBDC-404C-B0A6-0FB3458A337A}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SpaceLoop\SpaceLoop.Shared\SpaceLoop.Shared.projitems*{5adfa85e-feb8-4655-a806-3e4cc494ed16}*SharedItemsImports = 5
+		SpaceLoop\SpaceLoop.Shared\SpaceLoop.Shared.projitems*{8b62de55-f82a-49e7-8819-c8fa6c156935}*SharedItemsImports = 13
+		SpaceLoop\SpaceLoop.Shared\SpaceLoop.Shared.projitems*{b315e961-dbdc-404c-b0a6-0fb3458a337a}*SharedItemsImports = 5
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://chalk.tfspreview.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SpaceLoop\\SpaceLoop.Shared\\SpaceLoop.Shared.shproj
+		SccProjectTopLevelParentUniqueName1 = SpaceLoop.sln
+		SccProjectName1 = SpaceLoop/SpaceLoop.Shared
+		SccLocalPath1 = SpaceLoop\\SpaceLoop.Shared
+		SccProjectUniqueName2 = SpaceLoop\\SpaceLoop.Windows\\SpaceLoop.Windows.jsproj
+		SccProjectTopLevelParentUniqueName2 = SpaceLoop.sln
+		SccProjectName2 = SpaceLoop/SpaceLoop.Windows
+		SccLocalPath2 = SpaceLoop\\SpaceLoop.Windows
+		SccProjectUniqueName3 = SpaceLoop\\SpaceLoop.WindowsPhone\\SpaceLoop.WindowsPhone.jsproj
+		SccProjectTopLevelParentUniqueName3 = SpaceLoop.sln
+		SccProjectName3 = SpaceLoop/SpaceLoop.WindowsPhone
+		SccLocalPath3 = SpaceLoop\\SpaceLoop.WindowsPhone
+		SccProjectUniqueName4 = SpaceLoop\\SpaceLoop.Shared\\SpaceLoop.Shared.projitems
+		SccProjectTopLevelParentUniqueName4 = SpaceLoop.sln
+		SccProjectName4 = SpaceLoop/SpaceLoop.Shared
+		SccLocalPath4 = SpaceLoop\\SpaceLoop.Shared
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Debug|ARM.Build.0 = Debug|ARM
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Debug|ARM.Deploy.0 = Debug|ARM
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Debug|x64.ActiveCfg = Debug|x64
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Debug|x64.Build.0 = Debug|x64
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Debug|x64.Deploy.0 = Debug|x64
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Debug|x86.ActiveCfg = Debug|x86
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Debug|x86.Build.0 = Debug|x86
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Debug|x86.Deploy.0 = Debug|x86
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Release|ARM.ActiveCfg = Release|ARM
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Release|ARM.Build.0 = Release|ARM
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Release|ARM.Deploy.0 = Release|ARM
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Release|x64.ActiveCfg = Release|x64
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Release|x64.Build.0 = Release|x64
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Release|x64.Deploy.0 = Release|x64
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Release|x86.ActiveCfg = Release|x86
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Release|x86.Build.0 = Release|x86
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16}.Release|x86.Deploy.0 = Release|x86
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Debug|ARM.Build.0 = Debug|ARM
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Debug|ARM.Deploy.0 = Debug|ARM
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Debug|x86.ActiveCfg = Debug|x86
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Debug|x86.Build.0 = Debug|x86
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Debug|x86.Deploy.0 = Debug|x86
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Release|ARM.ActiveCfg = Release|ARM
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Release|ARM.Build.0 = Release|ARM
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Release|ARM.Deploy.0 = Release|ARM
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Release|x64.ActiveCfg = Release|Any CPU
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Release|x86.ActiveCfg = Release|x86
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Release|x86.Build.0 = Release|x86
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B62DE55-F82A-49E7-8819-C8FA6C156935} = {336804D4-09B2-4916-B907-012C916E2764}
+		{5ADFA85E-FEB8-4655-A806-3E4CC494ED16} = {336804D4-09B2-4916-B907-012C916E2764}
+		{B315E961-DBDC-404C-B0A6-0FB3458A337A} = {336804D4-09B2-4916-B907-012C916E2764}
+	EndGlobalSection
+EndGlobal
